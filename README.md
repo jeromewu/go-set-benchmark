@@ -10,7 +10,7 @@ $ make
 
 ## Result
 
-|          | map[]bool | map[]struct{}{} | map[uint]interface{} |
+|          | map[]bool | map[]struct{}{} | map[]interface{} |
 | -------- | ------------- | ------------------- | -------------------- |
 | time/op (execution time) | 3.27s | 3.12s | 5.96s |
 | alloc/op (memory consumption) | 884 MB | 802 MB | 1.98 GB |
